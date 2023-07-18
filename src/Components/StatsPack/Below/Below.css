@@ -1,0 +1,35 @@
+.below {
+    margin-top: -100px;
+ 
+ }
+ 
+ .below h2 {
+     font-size: 3.5rem;
+     text-align: center;
+ }
+ 
+ .below .subtext {
+     text-align: center;
+     font-size: 1.8rem;
+     line-height: 1.5;
+     margin-block: 2rem;
+     width: 50%;
+     margin-inline: auto;
+ }
+ 
+
+
+
+
+ @media(max-width:900px) {
+    .below {
+        margin-top: -150px;
+        padding-bottom: 4rem;
+    }
+
+    .below .subtext {
+        width: 100%;
+    }
+
+}
+

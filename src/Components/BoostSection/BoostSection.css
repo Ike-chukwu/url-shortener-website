@@ -1,0 +1,19 @@
+.boost{
+    text-align: center;
+    background: hsl(257, 27%, 26%) url('../../images/bg-boost-desktop.svg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boost h2{
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    color: white;
+}
+
+.boost .btn{
+    padding-inline:4rem;
+    padding-block: 1rem;
+    font-size: 1.8rem;
+}

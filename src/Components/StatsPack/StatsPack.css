@@ -1,0 +1,123 @@
+.stats {
+    background: hsl(0, 0%, 75%);
+    margin-top: 10rem;
+    padding-top: 20rem;
+}
+
+.stats .shortener {
+    position: relative;
+    top: -260px;
+}
+
+
+
+/* --media query-- */
+@media(min-width:1500px) {
+    .stats .shortener {
+        position: relative;
+        top: -260px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --purple-header-- */
+
+.shortener .purple-header {
+    background: hsl(257, 27%, 26%);
+    border-radius: .5rem;
+    padding: 4rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.shortener .purple-header .input-container {
+    width: 80%;
+    height: 4rem;
+    line-height: 3.5rem;
+}
+
+.shortener .purple-header .input-container .cover {
+    background: white;
+    border-radius: .5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.shortener .purple-header .input-container .purple-input {
+    border-radius: .5rem;
+    border: none;
+    padding-left: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.shortener .purple-header .input-container .purple-input.active{
+    border: initial;
+    border:.1rem solid red;
+}
+
+.shortener .purple-header .input-container .cover .purple-input:focus {
+    outline: none;
+}
+
+.shortener .purple-header .input-container .error {
+    color: red;
+    margin-top: -.5rem;
+    display: none;
+}
+
+.shortener .purple-header .input-container .error.active{
+    display: initial;
+}
+
+.shortener .purple-header .btn {
+    width: 18%;
+    text-align: center;
+    border-radius: .5rem;
+    height: 4rem;
+    padding: 0;
+    line-height: 4rem;
+    font-size: 1.6rem;
+}
+
+
+
+/* --media--query-- */
+
+@media(max-width:900px) {
+
+    .shortener .purple-header {
+        flex-direction: column;
+        gap: 3rem;
+        padding: 2rem;
+    }
+
+    .shortener .purple-header .input-container {
+        width: 100%;
+    }
+
+    .shortener .purple-header .btn {
+        width: 100%;
+    }
+
+}
+
+
+
